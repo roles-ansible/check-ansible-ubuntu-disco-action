@@ -1,11 +1,11 @@
-FROM ubuntu:latest
+FROM ubuntu:disco
 
 LABEL "maintainer"="L3D <l3d@c3woc.de>"
-LABEL "repository"="https://github.com/roles-ansible/check-ansible-ubuntu-latest-action.git"
-LABEL "homepage"="https://github.com/roles-ansible/check-ansible-ubuntu-latest-action"
+LABEL "repository"="https://github.com/roles-ansible/check-ansible-ubuntu-disco-action.git"
+LABEL "homepage"="https://github.com/roles-ansible/check-ansible-ubuntu-disco-action"
 
-LABEL "com.github.actions.name"="check-ansible-ubuntu-latest"
-LABEL "com.github.actions.description"="Check ansible role or playbook with Ubuntu latest"
+LABEL "com.github.actions.name"="check-ansible-ubuntu-disco"
+LABEL "com.github.actions.description"="Check ansible role or playbook with Ubuntu disco"
 LABEL "com.github.actions.icon"="aperture"
 LABEL "com.github.actions.color"="green"
 
