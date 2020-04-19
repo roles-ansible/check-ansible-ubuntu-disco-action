@@ -5,6 +5,15 @@
 =======================
 This action allows you to test your ansible role or your playbook in a Docker Container with ``ubuntu:disco``.
 
+```
+ATTENTION
+
+This action check currently does not work anymore.
+Looks like Ubuntu disco is END OF Support.
+
+Please feel free to fix it, if you need it!
+```
+
 ## Usage
 To use the action simply create an ``ansible-ubuntu-disco.yml`` *(or choose custom ``*.yml`` name)* in the ``.github/workflows/`` directory.
 
